@@ -1,0 +1,141 @@
+/*----------------ALL COMPONENT---------------*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline:none;
+}
+
+html{
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    text-rendering: optimizeLegibility;
+    color:#e67e22;
+    letter-spacing: 3px;
+}
+
+/*-------------------COMMON-------------------*/
+
+.row{
+    max-width:1140px;
+    margin:0 auto;
+}
+
+/*-------------------BACKGROUND-IMAGE-------------------*/
+
+.background{
+    width:100%;
+    height:100vh;
+    background-color: aqua;
+    margin:0 auto; 
+
+    
+}
+
+.bg-image{
+    background-image:linear-gradient(45deg, rgba(0,0,0,0.2),rgba(0,0,0,0.8)),url(images/flag.jpg);
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center ;
+
+}
+
+
+/*-------------------FORM-LOGIN-------------------*/
+
+.form-login{
+    width:50%;
+    height:50vh;
+    margin-left:25%;
+    margin-right:25%;
+    position: relative;
+    top:25%;
+    color:rgba(255, 255, 255, 0.89);
+    letter-spacing: 3px;
+    text-transform:uppercase ;
+    
+
+}
+
+.inp-tag{
+    float:right;
+    border:2px solid rgba(255, 166, 0, 0.541);
+    border-radius: 200px;
+    background:rgba(255, 255, 255, 0.89);
+    width:40%;
+    padding:3px;
+    
+}
+
+.login-form{
+    width:100%;
+    margin-bottom: 50px;
+}
+
+input[type="text"]::placeholder{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.logo{
+    background-color: #fff;
+    margin:5px 0 0 10px;
+}
+
+label{
+    position: relative;
+    left:50px;
+}
+
+
+
+/*-------------------BUTTONS-------------------*/
+
+.btn-login{
+    width:100%;
+    padding:5px;
+}
+
+.btn{
+    padding:10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius:200px;
+    background:none;
+    margin-left:22%;
+    color:#fff;
+}
+
+.btn-submit{
+    background-color: #e67e22;
+    border:1px solid #e67e22;
+    
+}
+
+
+
+.details{
+     
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    color: black;
+    letter-spacing: 3px;
+    margin-left:2%;
+  
+}
+
+.btn1{
+   
+   
+    
+}

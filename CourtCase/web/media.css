@@ -1,0 +1,56 @@
+@media only screen and (max-width:1023px){
+    .btn{
+        margin-left: 40%;
+        margin-bottom: 10px;
+    }
+        
+}
+
+
+@media only screen and (max-width:767px){
+    label{
+        position:relative;
+        left:2px;
+        letter-spacing: 1px;
+    }
+    
+    input[type="text"]::placeholder{
+        
+    }
+    
+    .btn{
+        display:inline-block;
+        margin-left: 28%;
+        margin-bottom: 10px;
+        
+    }
+
+}
+
+@media only screen and (max-width:480px){
+    html{
+        width:100%;
+    }
+    
+    .btn{
+        display: block;
+        margin-bottom: 5px;
+        margin-left:25%;
+        
+    }
+    
+    .inp-tag{
+        display: block;
+        margin-left:20%;
+        
+        width:100%;
+    }
+    
+    label{
+        display:block;
+        width:100%;
+        margin-bottom:5px;
+        text-align: center;
+        
+    }
+}
